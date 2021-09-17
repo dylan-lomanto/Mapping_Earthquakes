@@ -30,7 +30,7 @@ let myStyle = {
 	color: "#ffffa1",
 	weight: 2
 }
-// Grabbing our GeoJSON data.
+// Grabbing our GeoJSON data..
 d3.json(torontoData).then(function(data) {
   console.log(data);
 // Creating a GeoJSON layer with the retrieved data.
