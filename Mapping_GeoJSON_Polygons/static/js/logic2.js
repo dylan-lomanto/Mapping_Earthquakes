@@ -34,6 +34,7 @@ let myStyle = {
 	color: "blue",
 	weight: 1
 }
+
 // Grabbing our GeoJSON data.
 d3.json(torontoHoods).then(function(data) {
 	console.log(data);
